@@ -35,14 +35,14 @@ export const skillList = [
     },
     {
         skillName: 'C',
-        skillUrl: './clogo.png',
+        skillUrl: 'https://github.com/Bhumireddymanvitha/portfolio/blob/main/src/assets/clogo.png?raw=true',
     },
     {
         skillName: 'Python',
-        skillUrl: 'https://drive.google.com/file/d/1uvbpsnHWWSWpntwQIUVEIPNXKE7vp-D7/view?usp=sharing',
+        skillUrl: '',
     },
     {
         skillName: 'SQL',
-        skillUrl: 'https://drive.google.com/file/d/18IUFmSCZUQJP_dgFG_qCZNAAKqZR4HQ-/view?usp=sharing',
+        skillUrl: 'https://github.com/Bhumireddymanvitha/portfolio/blob/main/src/assets/sql-logo.png?raw=true',
     }
 ];

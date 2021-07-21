@@ -13,7 +13,8 @@ const Modal = ({ closeModal }) => {
 
                 </div>
                 <div className="middle-section">
-                    <h3>i want to write</h3>
+                    <h3>Welcome to my Portfolio!</h3>
+                    <h3>To work in a challenging environment.where i c </h3>
                     <p>..</p>
                     <p>
 

@@ -1,0 +1,8 @@
+.project-cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 44px;
+    align-self: center;
+    justify-content: center;
+}

@@ -39,7 +39,7 @@ export const skillList = [
     },
     {
         skillName: 'Python',
-        skillUrl: '',
+        skillUrl: 'https://github.com/Bhumireddymanvitha/portfolio/blob/main/src/assets/pythonlogo.png?raw=true',
     },
     {
         skillName: 'SQL',

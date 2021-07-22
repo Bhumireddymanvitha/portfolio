@@ -2,7 +2,7 @@ import React from 'react';
 import FooterLink from '../FooterLink/FooterLink';
 import Header from '../Header/Header';
 import { projectsData } from './../../assets/projectsData';
-import projectCard from './ProjectCard';
+import ProjectCard from './ProjectCard';
 import './Projects.css';
 
 
@@ -14,7 +14,7 @@ const projects = () => {
                 heading="My Projects."
                 details="Here are a few cool things I've worked on, do check them out!" />
 
-            <div className="project-card-container">
+            <div className="project-cards-container">
                 {projectsData.map(({
                     projectName,
                     projectDescription,
@@ -22,7 +22,7 @@ const projects = () => {
                     videoUrl,
                     projectUrl
                 }) => {
-                    return <projectCard
+                    return <ProjectCard
                         projectName={projectName}
                         projectDescription={projectDescription}
 

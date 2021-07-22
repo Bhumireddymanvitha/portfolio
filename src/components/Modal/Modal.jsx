@@ -8,18 +8,16 @@ const Modal = ({ closeModal }) => {
 
             <div onClick={(e) => e.stopPropagation()} className="modal-container">
                 <div className="upper-section">
-                    <h1>Huge Annoucement!</h1>
+
                     <p onClick={closeModal} className="close">&times;</p>
 
                 </div>
                 <div className="middle-section">
-                    <h3>Welcome to my Portfolio!</h3>
-                    <h3>To work in a challenging environment.where i c </h3>
-                    <p>..</p>
-                    <p>
+
+                    <h1>Welcome to my Portfolio!</h1>
 
 
-                    </p>
+
 
 
                 </div>

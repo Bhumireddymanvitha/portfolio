@@ -1,5 +1,5 @@
 import React from 'react';
-import { projectsData } from '../../assets/projectsData';
+
 import './Projects.css';
 
 const projectCard = ({
@@ -11,7 +11,7 @@ const projectCard = ({
 
 }) => {
     return (
-        <div className="projectCard">
+        <div className="project-Card">
             <div className="image-container">
                 <a href={projectUrl} className="project-external-link">
                     <img src={imageUrl} alt="project" className="project-image" />

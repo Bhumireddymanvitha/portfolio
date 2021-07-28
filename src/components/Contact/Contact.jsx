@@ -7,7 +7,7 @@ import github from './../../assets/gh.png';
 import linkedin from './../../assets/li.png';
 import instagram from './../../assets/in.png';
 import medium from './../../assets/me.png';
-import web from './../../assets/web.png';
+
 
 
 const Contact = () => {

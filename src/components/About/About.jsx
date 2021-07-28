@@ -64,19 +64,6 @@ const About = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
             <FooterLink
                 phrase="Check out my "
                 link="projects!"

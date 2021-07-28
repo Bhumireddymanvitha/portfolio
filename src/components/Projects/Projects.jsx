@@ -7,7 +7,7 @@ import './Projects.css';
 
 
 
-const projects = () => {
+const Projects = () => {
     return (
         <div className='section-container'>
             <Header
@@ -22,17 +22,21 @@ const projects = () => {
                     videoUrl,
                     projectUrl
                 }) => {
-                    return <ProjectCard
-                        projectName={projectName}
-                        projectDescription={projectDescription}
-                        projectUrl={projectUrl}
+                    return (
+                        <ProjectCard
+                            projectName={projectName}
+                            projectDescription={projectDescription}
+                            projectUrl={projectUrl}
 
-                        imageUrl={imageUrl}
-                        videoUrl={videoUrl}
-                    />
-                })
-
+                            imageUrl={imageUrl}
+                            videoUrl={videoUrl}
+                        />
+                    );
                 }
+
+
+
+                )}
             </div>
 
             <FooterLink phrase="Check out " link="my WorkExperience!" toAdress="/work experience" />
@@ -42,4 +46,4 @@ const projects = () => {
         </div>
     );
 };
-export default projects;
+export default Projects;

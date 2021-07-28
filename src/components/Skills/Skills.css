@@ -1,24 +1,26 @@
-.skill-card-container{
+.skill-card-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     margin: 80px 20%;
-
 }
-.skill{
+
+.skill {
     display: flex;
     flex-direction: column;
     width: 150px;
     align-items: center;
     margin-bottom: 20px;
 }
-.skill >img{
+
+.skill > img {
     width: 108px;
     margin-bottom: 15px;
-    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.skill > p{
+
+.skill > p {
     font-family: Montserrat;
     font-size: 24px;
     line-height: 36px;
@@ -28,9 +30,7 @@
     margin: 0;
 }
 
-
-
-.skills-vector-frame{
+.skills-vector-frame {
     position: absolute;
     display: flex;
     flex-direction: row-reverse;
@@ -38,20 +38,20 @@
     bottom: 0;
     z-index: -10;
     width: 80%;
-
 }
-.skills-vector{
+
+.skills-vector {
     max-height: 100%;
     width: 100%;
 }
-/*small screen sizes */
-@media only screen and (max-width: 640px) {
-    .skills-vector-frame{
-        width: 90%;
 
+/* Small screen sizes */
+@media only screen and (max-width: 640px) {
+    .skills-vector-frame {
+        width: 90%;
     }
-    .skill-card-container{
+
+    .skill-card-container {
         margin: 80px 10%;
     }
-    
 }

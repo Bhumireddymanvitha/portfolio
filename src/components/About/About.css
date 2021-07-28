@@ -1,35 +1,39 @@
-.about-main{
+.about-main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 60px 80px 80px 80px;
 }
+
 .about-main-left,
-.about-main-right{
+.about-main-right {
     width: 50%;
 }
 
-.about-main-right{
+.about-main-right {
     display: flex;
     justify-content: flex-end;
-
 }
-.about-main-left{
+
+.about-main-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.about-link-element{
-    color: #000;
 
+.about-link-element {
+    color: #000;
 }
-.about-sub-head{
+
+.about-sub-head {
     margin: 0;
 }
-.about-details{
-    margin: 10px 0 32px 0;;
+
+.about-details {
+    margin: 10px 0 32px 0;
 }
-.about-anime{
+
+.about-anime {
     width: 520px;
     max-width: 100%;
     max-height: 100%;
@@ -42,29 +46,33 @@
     bottom: 0;
     width: 55%;
 }
+
 .about-vector {
     display: block;
     max-height: 100%;
     max-width: 100%;
 }
-/*for mobile view*/
-@media only screen and (max-width: 640 ) {
-    .vector-frame{
+
+@media only screen and (max-width: 640px) {
+    .vector-frame {
         width: 90%;
     }
-    .about-head{
+
+    .about-head {
         width: 80%;
     }
+
     .about-head > p {
         font-size: 1.2em;
         line-height: 1.2em;
     }
-    .about-main{
-        padding: 50px 32px;
 
+    .about-main {
+        padding: 50px 32px;
     }
+
     .about-main-left,
-    .about-main-right{
+    .about-main-right {
         width: 100%;
     }
 }

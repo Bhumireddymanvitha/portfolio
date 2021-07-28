@@ -1,0 +1,18 @@
+.grid{
+    display: grid;
+    text-align: center;
+
+}
+.card-img{
+    height: 150px;
+}
+.card-btn{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    width: 100px;
+    height: 45px;
+}
+.card-btn:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}

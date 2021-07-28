@@ -2,16 +2,16 @@ import React from 'react';
 
 import './Projects.css';
 
-const projectCard = ({
+const ProjectCard = ({
     projectName,
     projectDescription,
     imageUrl,
     videoUrl,
-    projectUrl
+    projectUrl,
 
 }) => {
     return (
-        <div className="project-Card">
+        <div className="project-card">
             <div className="image-container">
                 <a href={projectUrl} className="project-external-link">
                     <img src={imageUrl} alt="project" className="project-image" />
@@ -27,4 +27,4 @@ const projectCard = ({
         </div>
     );
 }
-export default projectCard;
+export default ProjectCard;

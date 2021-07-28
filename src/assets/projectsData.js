@@ -16,7 +16,22 @@ export const projectsData = [
         projectDescription:
             'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
         imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj5.PNG',
-        videoUrl: 'http://theleanprogrammer.com/aam',
-        projectUrl: 'http://madhavbahl.tech/portfolio/',
+        videoUrl: '',
+        projectUrl: 'http://localhost:3000/portfolio#/',
+    },
+    {
+        projectName: 'mi store',
+        projectDescription: 'A Full Stack e commerce web application with all functionalities.',
+        imageUrl: 'https://github.com/Bhumireddymanvitha/mern-frontend/blob/main/mern.png?raw=true',
+        videoUrl: 'https://youtu.be/V2nNZa6Ymmc',
+        projectUrl: 'https://github.com/Bhumireddymanvitha/mern-frontend',
+
+    },
+    {
+        projectName: 'Image Classification',
+        projectDescription: '',
+        imageUrl: 'https://github.com/Bhumireddymanvitha/mern-frontend/blob/main/ml.jpeg?raw=true',
+        videoUrl: 'https://youtu.be/aEkvUkmHnG4',
+        projectUrl: 'https://github.com/Bhumireddymanvitha/imageclassification',
     },
 ];

@@ -21,7 +21,7 @@ const About = () => {
 
 
                         <a className='about-link-element'
-                            href='https://www.karunya.edu/'>Visit Website</a>
+                            href='https://www.karunya.edu/'> Visit Website</a>
                     </p>
 
                     <h3 className="about-sub-head">Web Developer</h3>
@@ -32,8 +32,8 @@ const About = () => {
                         Implementing end to end Full stack web applications.Creating backend using NodeJS,ExpressJS and database technologies like MongoDB and SQl.
 
 
-                        <a className='about-link-element'
-                            href='https://www.karunya.edu/'>Visit Website</a>
+                        <a className='about-link-element'>
+                        </a>
                     </p>
 
                     <h3 className="about-sub-head">Volunteer</h3>
@@ -44,7 +44,7 @@ const About = () => {
 
 
                         <a className='about-link-element'
-                            href='https://www.karunya.edu/'>Visit Website</a>
+                            href='https://www.karunya.edu/'> Visit Website</a>
                     </p>
 
                 </div>

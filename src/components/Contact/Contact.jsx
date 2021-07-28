@@ -71,16 +71,12 @@ const Contact = () => {
 
 
                 </a>
-                <a href="https://github.com/Bhumireddymanvitha" className="social-icon">
+                <a href="https://medium.com/@bhumireddy18" className="social-icon">
                     <img src={medium} alt="social" />
 
 
                 </a>
-                <a href="https://github.com/Bhumireddymanvitha" className="social-icon">
-                    <img src={web} alt="social" />
 
-
-                </a>
             </div>
 
 

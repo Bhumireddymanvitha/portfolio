@@ -8,6 +8,7 @@
     padding: 100px 10%;
     min-height: 100vh;
     box-sizing: border-box;
+    
 }
 .header-text{
     display: flex;
@@ -109,4 +110,6 @@
         margin: 10px 10px 35px 10px;
     }
 }
+
+
 
